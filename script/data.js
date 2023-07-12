@@ -41,5 +41,5 @@ fileInput.addEventListener("change", function () {
   };
 
   reader.readAsText(file); // Read the file as text
-    alert('Uploaded successfully');
+    console.log('Uploaded successfully');
 });
